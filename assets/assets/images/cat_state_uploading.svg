@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#42A5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E88E5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Blue upload background -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+  
+  <!-- Upload progress bar -->
+  <g transform="translate(256, 85)">
+    <rect x="-80" y="-12" width="160" height="24" rx="12" fill="white" opacity="0.3"/>
+    <rect x="-76" y="-8" width="100" height="16" rx="8" fill="white" opacity="0.9"/>
+    
+  </g>
+  
+  <!-- Upload arrow -->
+  <g transform="translate(256, 140)">
+    <path d="M0 -25 L-15 -5 L-8 -5 L-8 15 L8 15 L8 -5 L15 -5 Z" fill="white" opacity="0.6"/>
+  </g>
+  
+  <g transform="translate(256, 305)">
+    <!-- Cat ears - alert -->
+    <path d="M-115 -78 L-80 -172 L-42 -80 Z" fill="#FFB74D"/>
+    <path d="M-103 -83 L-80 -148 L-52 -83 Z" fill="#FF8A65"/>
+    <path d="M115 -78 L80 -172 L42 -80 Z" fill="#FFB74D"/>
+    <path d="M103 -83 L80 -148 L52 -83 Z" fill="#FF8A65"/>
+    
+    <!-- Cat head -->
+    <ellipse cx="0" cy="0" rx="130" ry="115" fill="#FFB74D"/>
+    <ellipse cx="0" cy="25" rx="90" ry="75" fill="#FFCC80"/>
+    
+    <!-- Patient waiting eyes - looking up -->
+    <ellipse cx="-48" cy="-10" rx="38" ry="44" fill="white"/>
+    <ellipse cx="48" cy="-10" rx="38" ry="44" fill="white"/>
+    
+    <!-- Pupils looking UP at progress -->
+    <ellipse cx="-48" cy="-28" rx="22" ry="26" fill="url(#eyeGrad)"/>
+    <ellipse cx="48" cy="-28" rx="22" ry="26" fill="url(#eyeGrad)"/>
+    
+    <!-- Sparkly patient eyes -->
+    <circle cx="-40" cy="-42" r="10" fill="white"/>
+    <circle cx="56" cy="-42" r="10" fill="white"/>
+    <circle cx="-55" cy="-22" r="6" fill="white" opacity="0.85"/>
+    <circle cx="42" cy="-22" r="6" fill="white" opacity="0.85"/>
+    
+    <!-- Nose -->
+    <path d="M0 40 L-12 55 Q0 62 12 55 Z" fill="#FF8A65"/>
+    
+    <!-- Patient small smile -->
+    <path d="M-18 72 Q0 80 18 72" stroke="#5D4037" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Whiskers -->
+    <line x1="-55" y1="50" x2="-108" y2="42" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-55" y1="60" x2="-110" y2="58" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="50" x2="108" y2="42" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="60" x2="110" y2="58" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7043;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Orange alert background -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+  
+  <!-- Notification bell -->
+  <g transform="translate(256, 85)">
+    <path d="M0 -35 L0 -28" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-25 0 Q-25 -25 0 -28 Q25 -25 25 0 L28 10 L-28 10 Z" fill="white" opacity="0.95"/>
+    <ellipse cx="0" cy="12" rx="32" ry="8" fill="white" opacity="0.95"/>
+    <ellipse cx="0" cy="18" rx="8" ry="6" fill="white" opacity="0.95"/>
+    <!-- Notification badge -->
+    <circle cx="25" cy="-20" r="14" fill="#F44336"/>
+    <text x="25" y="-15" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  </g>
+  
+  <!-- Alert lines -->
+  <g stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <line x1="200" y1="70" x2="185" y2="55"/>
+    <line x1="312" y1="70" x2="327" y2="55"/>
+    <line x1="200" y1="100" x2="180" y2="100"/>
+    <line x1="312" y1="100" x2="332" y2="100"/>
+  </g>
+  
+  <g transform="translate(256, 300)">
+    <!-- Cat ears - super alert/perked -->
+    <path d="M-112 -85 L-78 -190 L-38 -85 Z" fill="#FFB74D"/>
+    <path d="M-100 -90 L-78 -165 L-50 -90 Z" fill="#FF8A65"/>
+    <path d="M112 -85 L78 -190 L38 -85 Z" fill="#FFB74D"/>
+    <path d="M100 -90 L78 -165 L50 -90 Z" fill="#FF8A65"/>
+    
+    <!-- Cat head -->
+    <ellipse cx="0" cy="0" rx="130" ry="115" fill="#FFB74D"/>
+    <ellipse cx="0" cy="25" rx="90" ry="75" fill="#FFCC80"/>
+    
+    <!-- Wide alert eyes -->
+    <ellipse cx="-48" cy="-10" rx="42" ry="48" fill="white"/>
+    <ellipse cx="48" cy="-10" rx="42" ry="48" fill="white"/>
+    
+    <!-- Big excited pupils -->
+    <ellipse cx="-48" cy="-5" rx="26" ry="34" fill="url(#eyeGrad)"/>
+    <ellipse cx="48" cy="-5" rx="26" ry="34" fill="url(#eyeGrad)"/>
+    
+    <!-- Extra sparkly excited eyes -->
+    <circle cx="-36" cy="-25" r="14" fill="white"/>
+    <circle cx="60" cy="-25" r="14" fill="white"/>
+    <circle cx="-58" cy="8" r="8" fill="white" opacity="0.9"/>
+    <circle cx="38" cy="8" r="8" fill="white" opacity="0.9"/>
+    <circle cx="-40" cy="-10" r="5" fill="white" opacity="0.7"/>
+    <circle cx="56" cy="-10" r="5" fill="white" opacity="0.7"/>
+    
+    <!-- Nose -->
+    <path d="M0 40 L-12 55 Q0 62 12 55 Z" fill="#FF8A65"/>
+    
+    <!-- Excited open mouth -->
+    <ellipse cx="0" cy="78" rx="18" ry="14" fill="#5D4037"/>
+    <ellipse cx="0" cy="75" rx="12" ry="8" fill="#FF8A80"/>
+    
+    <!-- Whiskers - super perky -->
+    <line x1="-55" y1="48" x2="-118" y2="28" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-55" y1="58" x2="-120" y2="48" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="48" x2="118" y2="28" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="58" x2="120" y2="48" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7043;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Warm orange welcome background -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+  
+  <!-- Sparkles/confetti -->
+  <g fill="white">
+    <circle cx="90" cy="120" r="5" opacity="0.8"/>
+    <circle cx="420" cy="140" r="4" opacity="0.7"/>
+    <circle cx="70" cy="350" r="4" opacity="0.6"/>
+    <circle cx="440" cy="380" r="5" opacity="0.7"/>
+    <path d="M120 180 L124 192 L120 204 L116 192 Z M110 192 L120 196 L130 192 L120 188 Z" opacity="0.7"/>
+    <path d="M390 200 L394 212 L390 224 L386 212 Z M380 212 L390 216 L400 212 L390 208 Z" opacity="0.65"/>
+  </g>
+  
+  <!-- Waving paw -->
+  <g transform="translate(405, 165)">
+    <ellipse cx="0" cy="0" rx="35" ry="45" fill="#FFB74D"/>
+    <ellipse cx="0" cy="5" rx="25" ry="32" fill="#FFCC80"/>
+    <!-- Paw pads -->
+    <ellipse cx="0" cy="20" rx="12" ry="10" fill="#FF8A65"/>
+    <circle cx="-12" cy="5" r="6" fill="#FF8A65"/>
+    <circle cx="12" cy="5" r="6" fill="#FF8A65"/>
+    <circle cx="-8" cy="-10" r="5" fill="#FF8A65"/>
+    <circle cx="8" cy="-10" r="5" fill="#FF8A65"/>
+  </g>
+  
+  <!-- Motion lines for waving -->
+  <g stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <path d="M420 240 Q435 250 425 265" fill="none"/>
+    <path d="M430 235 Q448 248 435 268" fill="none"/>
+  </g>
+  
+  <g transform="translate(256, 256)">
+    <!-- Cat ears -->
+    <path d="M-115 -78 L-78 -175 L-38 -80 Z" fill="#FFB74D"/>
+    <path d="M-103 -83 L-78 -150 L-50 -83 Z" fill="#FF8A65"/>
+    <path d="M115 -78 L78 -175 L38 -80 Z" fill="#FFB74D"/>
+    <path d="M103 -83 L78 -150 L50 -83 Z" fill="#FF8A65"/>
+    
+    <!-- Cat head -->
+    <ellipse cx="0" cy="0" rx="130" ry="115" fill="#FFB74D"/>
+    <ellipse cx="0" cy="25" rx="90" ry="75" fill="#FFCC80"/>
+    
+    <!-- Happy welcoming eyes -->
+    <ellipse cx="-48" cy="-10" rx="38" ry="44" fill="white"/>
+    <ellipse cx="48" cy="-10" rx="38" ry="44" fill="white"/>
+    
+    <!-- Pupils -->
+    <ellipse cx="-48" cy="-5" rx="24" ry="30" fill="url(#eyeGrad)"/>
+    <ellipse cx="48" cy="-5" rx="24" ry="30" fill="url(#eyeGrad)"/>
+    
+    <!-- Big sparkly eyes -->
+    <circle cx="-38" cy="-22" r="12" fill="white"/>
+    <circle cx="58" cy="-22" r="12" fill="white"/>
+    <circle cx="-56" cy="5" r="7" fill="white" opacity="0.9"/>
+    <circle cx="40" cy="5" r="7" fill="white" opacity="0.9"/>
+    <circle cx="-42" cy="-10" r="4" fill="white" opacity="0.7"/>
+    <circle cx="54" cy="-10" r="4" fill="white" opacity="0.7"/>
+    
+    <!-- Blush marks -->
+    <ellipse cx="-78" cy="25" rx="16" ry="10" fill="#FF8A80" opacity="0.45"/>
+    <ellipse cx="78" cy="25" rx="16" ry="10" fill="#FF8A80" opacity="0.45"/>
+    
+    <!-- Nose -->
+    <path d="M0 40 L-12 55 Q0 62 12 55 Z" fill="#FF8A65"/>
+    
+    <!-- Big friendly smile -->
+    <path d="M-32 68 Q0 98 32 68" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Whiskers - happy/perky -->
+    <line x1="-55" y1="48" x2="-112" y2="35" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-55" y1="58" x2="-115" y2="52" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="48" x2="112" y2="35" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="58" x2="115" y2="52" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+</svg>

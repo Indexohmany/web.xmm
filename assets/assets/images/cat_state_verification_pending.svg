@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#26C6DA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ACC1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Teal/cyan waiting background -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+  
+  <!-- Hourglass -->
+  <g transform="translate(256, 95)">
+    <path d="M-25 -35 L25 -35 L25 -30 L5 0 L25 30 L25 35 L-25 35 L-25 30 L-5 0 L-25 -30 Z" fill="white" opacity="0.9"/>
+    <path d="M-18 -28 L18 -28 L3 -5 L-3 -5 Z" fill="#00ACC1" opacity="0.7"/>
+    <path d="M-3 5 L3 5 L15 25 L-15 25 Z" fill="#00ACC1" opacity="0.5"/>
+    <!-- Sand particles falling -->
+    <circle cx="0" cy="0" r="2" fill="#FFB74D"/>
+  </g>
+  
+  <!-- Clock dots around -->
+  <circle cx="180" cy="95" r="4" fill="white" opacity="0.4"/>
+  <circle cx="332" cy="95" r="4" fill="white" opacity="0.4"/>
+  
+  <g transform="translate(256, 305)">
+    <!-- Cat ears -->
+    <path d="M-118 -75 L-82 -165 L-42 -78 Z" fill="#FFB74D"/>
+    <path d="M-106 -80 L-82 -140 L-52 -82 Z" fill="#FF8A65"/>
+    <path d="M118 -75 L82 -165 L42 -78 Z" fill="#FFB74D"/>
+    <path d="M106 -80 L82 -140 L52 -82 Z" fill="#FF8A65"/>
+    
+    <!-- Cat head -->
+    <ellipse cx="0" cy="0" rx="130" ry="115" fill="#FFB74D"/>
+    <ellipse cx="0" cy="25" rx="90" ry="75" fill="#FFCC80"/>
+    
+    <!-- Patient waiting eyes -->
+    <ellipse cx="-48" cy="-10" rx="38" ry="42" fill="white"/>
+    <ellipse cx="48" cy="-10" rx="38" ry="42" fill="white"/>
+    
+    <!-- Pupils looking up patiently -->
+    <ellipse cx="-48" cy="-18" rx="22" ry="28" fill="url(#eyeGrad)"/>
+    <ellipse cx="48" cy="-18" rx="22" ry="28" fill="url(#eyeGrad)"/>
+    
+    <!-- Eye shine -->
+    <circle cx="-40" cy="-32" r="10" fill="white"/>
+    <circle cx="56" cy="-32" r="10" fill="white"/>
+    <circle cx="-55" cy="-10" r="6" fill="white" opacity="0.85"/>
+    <circle cx="42" cy="-10" r="6" fill="white" opacity="0.85"/>
+    
+    <!-- Nose -->
+    <path d="M0 40 L-12 55 Q0 62 12 55 Z" fill="#FF8A65"/>
+    
+    <!-- Patient neutral expression -->
+    <path d="M-18 72 L18 72" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Whiskers -->
+    <line x1="-55" y1="50" x2="-108" y2="45" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-55" y1="60" x2="-110" y2="60" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="50" x2="108" y2="45" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="60" x2="110" y2="60" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFAB91;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8A65;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Softer/muted background -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+  
+  <!-- Empty box icon -->
+  <g transform="translate(256, 100)">
+    <path d="M-40 -20 L0 -40 L40 -20 L40 25 L0 45 L-40 25 Z" fill="white" opacity="0.3"/>
+    <path d="M-40 -20 L0 0 L0 45 L-40 25 Z" fill="white" opacity="0.4"/>
+    <path d="M40 -20 L0 0 L0 45 L40 25 Z" fill="white" opacity="0.2"/>
+    <path d="M-40 -20 L0 0 L40 -20" stroke="white" stroke-width="3" fill="none" opacity="0.6"/>
+    <!-- Dashed lines inside box (empty) -->
+    <path d="M-15 5 L15 5" stroke="white" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+    <path d="M-10 15 L10 15" stroke="white" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+  </g>
+  
+  <g transform="translate(256, 256)">
+    <!-- Cat ears - relaxed/droopy -->
+    <path d="M-118 -70 L-85 -155 L-42 -78 Z" fill="#FFB74D"/>
+    <path d="M-106 -76 L-85 -130 L-52 -82 Z" fill="#FF8A65"/>
+    <path d="M118 -70 L85 -155 L42 -78 Z" fill="#FFB74D"/>
+    <path d="M106 -76 L85 -130 L52 -82 Z" fill="#FF8A65"/>
+    
+    <!-- Cat head -->
+    <ellipse cx="0" cy="0" rx="130" ry="115" fill="#FFB74D"/>
+    <ellipse cx="0" cy="25" rx="90" ry="75" fill="#FFCC80"/>
+    
+    <!-- Bored half-closed eyes -->
+    <ellipse cx="-48" cy="-5" rx="38" ry="30" fill="white"/>
+    <ellipse cx="48" cy="-5" rx="38" ry="30" fill="white"/>
+    
+    <!-- Heavy eyelids -->
+    <path d="M-82 -20 Q-48 -5 -14 -20" fill="#FFB74D"/>
+    <path d="M82 -20 Q48 -5 14 -20" fill="#FFB74D"/>
+    
+    <!-- Pupils -->
+    <ellipse cx="-48" cy="2" rx="20" ry="18" fill="url(#eyeGrad)"/>
+    <ellipse cx="48" cy="2" rx="20" ry="18" fill="url(#eyeGrad)"/>
+    
+    <!-- Minimal eye shine -->
+    <circle cx="-40" cy="-5" r="6" fill="white"/>
+    <circle cx="56" cy="-5" r="6" fill="white"/>
+    
+    <!-- Nose -->
+    <path d="M0 40 L-12 55 Q0 62 12 55 Z" fill="#FF8A65"/>
+    
+    <!-- Flat bored mouth -->
+    <path d="M-20 72 L20 72" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Whiskers - droopy -->
+    <line x1="-55" y1="52" x2="-105" y2="62" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-55" y1="62" x2="-108" y2="75" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="52" x2="105" y2="62" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="62" x2="108" y2="75" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+</svg>

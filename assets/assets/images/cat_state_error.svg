@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF5350;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E53935;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Red error background -->
+  <rect x="0" y="0" width="512" height="512" rx="115" ry="115" fill="url(#bgGrad)"/>
+  
+  <!-- Error icon (X in circle) -->
+  <g transform="translate(256, 85)">
+    <circle cx="0" cy="0" r="35" fill="white" opacity="0.95"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#E53935" stroke-width="8" stroke-linecap="round"/>
+    <line x1="12" y1="-12" x2="-12" y2="12" stroke="#E53935" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(256, 295)">
+    <!-- Cat ears - flattened/scared -->
+    <path d="M-120 -60 L-90 -145 L-50 -70 Z" fill="#FFB74D" transform="rotate(-10, -85, -100)"/>
+    <path d="M-110 -68 L-90 -125 L-58 -75 Z" fill="#FF8A65" transform="rotate(-10, -85, -100)"/>
+    <path d="M120 -60 L90 -145 L50 -70 Z" fill="#FFB74D" transform="rotate(10, 85, -100)"/>
+    <path d="M110 -68 L90 -125 L58 -75 Z" fill="#FF8A65" transform="rotate(10, 85, -100)"/>
+    
+    <!-- Cat head -->
+    <ellipse cx="0" cy="0" rx="130" ry="115" fill="#FFB74D"/>
+    <ellipse cx="0" cy="25" rx="90" ry="75" fill="#FFCC80"/>
+    
+    <!-- Worried eyes - wide and small pupils -->
+    <ellipse cx="-48" cy="-10" rx="42" ry="48" fill="white"/>
+    <ellipse cx="48" cy="-10" rx="42" ry="48" fill="white"/>
+    
+    <!-- Worried eyebrows -->
+    <path d="M-80 -50 Q-48 -40 -15 -55" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M80 -50 Q48 -40 15 -55" stroke="#5D4037" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Small worried pupils -->
+    <ellipse cx="-48" cy="-5" rx="16" ry="20" fill="url(#eyeGrad)"/>
+    <ellipse cx="48" cy="-5" rx="16" ry="20" fill="url(#eyeGrad)"/>
+    
+    <!-- Eye shine -->
+    <circle cx="-42" cy="-18" r="7" fill="white"/>
+    <circle cx="54" cy="-18" r="7" fill="white"/>
+    
+    <!-- Nose -->
+    <path d="M0 40 L-12 55 Q0 62 12 55 Z" fill="#FF8A65"/>
+    
+    <!-- Worried wavy mouth -->
+    <path d="M-25 75 Q-12 68 0 75 Q12 82 25 75" stroke="#5D4037" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Sweat drop -->
+    <path d="M-90 -30 Q-85 -15 -90 0 Q-95 -15 -90 -30" fill="#64B5F6"/>
+    
+    <!-- Whiskers - tense -->
+    <line x1="-55" y1="50" x2="-108" y2="42" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-55" y1="60" x2="-110" y2="58" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="50" x2="108" y2="42" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="55" y1="60" x2="110" y2="58" stroke="#5D4037" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+
+</svg>
